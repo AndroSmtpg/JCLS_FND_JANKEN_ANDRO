@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>janken</title>
+    <style>
+        img
+         {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>janken</h1>
+        <img src="gunting.png">
+        <img src="batu.png">
+        <img src="kertas.png"><br>
+        <button type="text" id="gunting" onclick="gunting()">Gunting</button>
+        <button type="text" id="batu" onclick="batu()">Batu</button>
+        <button type="text" id="kertas" onclick="kertas()">Kertas</button><br>
+        <table>
+            <thead>
+                <tr>
+                    <th id="player"></th>
+                </tr>
+            </thead>
+        </table>
+        <br>
+        <img src="versus.png">
+        <table>
+            <thead>
+                <tr>
+                    <th id="comp"></th>
+                </tr>
+            </thead>
+        </table>
+
+    </center>
+</body>
+<script src="./janken.js"></script>
+</html>
